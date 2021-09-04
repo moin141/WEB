@@ -1,0 +1,302 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'poppins',sans-serif;
+}
+
+.navbar{
+	display: flex;
+	align-items: center;
+	padding: 20px;
+
+}
+ nav{
+	flex: 1;
+	text-align: right;
+
+}
+nav ul{
+	display: inline-block;
+	list-style-type: none;
+	margin-bottom:  7rem;
+	padding-right: 0rem;
+
+}
+nav ul li{
+	display: inline-block;
+	margin-right: 20px
+}
+a{
+	text-decoration: none;
+	color: blue;
+
+}
+P{
+	color: #555;
+}
+.container{
+	max-width: 1300px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-left: 0px;
+
+}
+.row{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.col-2{
+	flex-basis: 40%;
+	min-width: 300px;
+
+}
+.col-2 img{
+	max-width:100%;
+	display: inline-block;
+	margin-left:200px;
+	margin-bottom: 4rem;
+
+
+}
+.col-2 h1{
+	font-size: 50px;
+	line-height: 60px;
+	margin: 25px 0;
+}
+
+.btn{
+	display: inline-block;
+	background: #ff523b;
+	color: #fff;
+	padding: 8px 30px;
+	margin: 30px 0;
+	border-radius: 30px;
+	transition: background 0.5s;
+}
+
+.header{
+	background: radial-gradient(#fff,#ffd6d6);
+}
+.btn:hover{
+	background: #563434;
+
+
+}
+.header.row{
+           margin-top: 70px;
+}
+.categories{
+	margin: 60px 0;
+
+}
+.col-3{
+	flex-basis: 30%
+	min-width:250px;
+	margin-bottom: 0px;
+
+
+
+}
+.col-3 img{
+	width: 120%;
+}
+.small-container{
+	
+	max-width: 1380px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-left: 0px;
+
+
+}
+.col-4{
+	flex-basis: 25%;
+	padding: 10px;
+	min-width: 200px;
+	margin-bottom: 50px;
+	transition: transform 0.5s;
+}
+.col-4 img{
+	width: 100%;
+}
+
+
+
+.title{
+	text-align: center;
+	margin: 0 auto 80px;
+	position: relative;
+	line-height: 60px;
+	color: #555;
+
+}
+.title::after{
+	content: '';
+	background: #ff523b;
+	width: 80px;
+	height: 5px;
+	border-radius: 5px;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+h4{
+	color: #555;
+	font-weight: normal;
+}
+.col-4 p{
+	font-size: 14px;
+}
+.rating{
+	color:green;
+}
+.col-4:hover{
+	transform: translateY(-5px);
+}
+
+/*------offer-----*/
+.offer{
+	background: radial-gradient(#fff,#ffd6d6);
+	margin-top: 80px;
+	padding: 30px 0;
+
+}
+.col-2.offer-img{
+	padding: 50px;
+}
+small{
+	color: #555;
+	/*------------Testimonial--------------*/
+}
+.testimonial {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width:100%;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px 10px ;
+    transition: all 0.3s ease-in-out;
+}
+.card-container {
+	padding:20px;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transform: translateY(-10px);
+}
+
+.card img {
+	width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.card p {
+	font-size: 12px;
+	margin:12px 0;
+	color: #777;
+}
+.fa {
+	color: darkorange;
+}
+.fa-quote-left {
+	font-size: 30px !important;
+	margin-bottom: 20px;
+}
+.testimonial{
+	background: radial-gradient(#fff,#ffd6d6);
+}
+/*-----brands---*/
+.brands{
+	margin: 100px auto;
+
+}
+.col-5{
+	width: 160px;
+
+}
+.col-5 img{
+	width: 100%;
+	cursor: pointer;
+	filter: grayscale(100%);
+}
+.col-5 img:hover{
+	filter: grayscale(0%);
+}
+.footer{
+	background: #000;
+	color: #8a8a8a;
+	font-size: 14px;
+	padding: 60px 0 20px;
+}
+.footer p{
+	color: #8a8a8a;
+}
+.footer h3{
+	color: #fff;
+	margin-bottom: 20px;
+
+}
+.footer-col-1,.footer-col-2{
+	min-width: 250px;
+	margin-bottom: 20px;
+
+}
+.footer-col-1{
+	flex-basis: 30%;
+
+}
+.footer-col-2{
+	flex: 1;
+	text-align: center;
+}
+.footer-col-2 img{
+	width: 250px;
+	margin-bottom: 10px;
+}
+ul{
+
+	list-style-type: none;
+}
+.footer-col-3{
+	margin-left: 150px;
+}
+.footer-col-3,.footer-col-4{
+	min-width: 150px;
+	margin-bottom: 80px;
+}
+.app-logo{
+	margin-top: 10px;
+}
+.app-logo img{
+	width: 140px;
+}
+.footer hr{
+	border:none;
+	background: #b5b5b5;
+	height: 1px;
+	margin:20px 0;
+
+}
+.copyright{
+	text-align: center;
+}
+.logo img{
+	margin-left: 3rem;
+	width: 100px;
+}
